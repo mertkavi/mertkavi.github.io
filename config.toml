@@ -6,6 +6,7 @@ enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 publishDir = "docs"
+googleAnalytics = "G-DHZD8906YW"
 
 [params]
   description = "My thoughts on software"
