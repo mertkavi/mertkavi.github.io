@@ -2,12 +2,17 @@
 title = "About"
 +++
 
-Hi, my friend 👋
+Hi there 👋 ,
 
-I'm Mert. Nice to meet you.
+My name is **Mert Kavi**. I write my thoughts on this blog.
 
-Reach me here:
+Here are some of the **technical areas** of my interests:
 
-* https://twitter.com/mkavi
-* https://github.com/mertkavi
-* https://linkedin.com/in/mertkavi/
+* **Data and machine learning** platforms and products.
+* **Scalability** and **high availability**.
+* Software **infrastructure**, **architecture**, and **operations**.
+
+**Links:**
+* [LinkedIn](https://linkedin.com/in/mertkavi)
+* [Twitter](https://twitter.com/mkavi)
+* [GitHub](https://github.com/mertkavi)
