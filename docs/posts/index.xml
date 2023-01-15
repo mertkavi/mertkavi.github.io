@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Writings on Mert Kavi</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://mertkavi.com/posts/</link>
     <description>Recent content in Writings on Mert Kavi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2022 Mert Kavi</copyright>
     <lastBuildDate>Sun, 13 Mar 2022 13:15:05 +0300</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mertkavi.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     
     <item>
       <title>Why Kubernetes is important for the future of data platforms?</title>
-      <link>http://localhost:1313/why-kubernetes-is-important-for-the-future-of-data-platforms/</link>
+      <link>https://mertkavi.com/why-kubernetes-is-important-for-the-future-of-data-platforms/</link>
       <pubDate>Sun, 13 Mar 2022 13:15:05 +0300</pubDate>
       
-      <guid>http://localhost:1313/why-kubernetes-is-important-for-the-future-of-data-platforms/</guid>
+      <guid>https://mertkavi.com/why-kubernetes-is-important-for-the-future-of-data-platforms/</guid>
       <description>&lt;h2 id=&#34;introduction&#34; class=&#34;relative group&#34;&gt;Introduction &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#introduction&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Kubernetes is container automation and allocator platform in short. It has built-in healing, scheduling, deployment practices (such as rollouts and rollbacks), load-balancing, and auto-scaling features. It wraps up containers as abstraction by name of Pod.&lt;/p&gt;
 &lt;h3 id=&#34;kubernetes-architecture&#34; class=&#34;relative group&#34;&gt;Kubernetes architecture &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#kubernetes-architecture&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;
@@ -39,7 +39,7 @@
           /why-kubernetes-is-important-for-the-future-of-data-platforms/kubernetes_architecture_hu3d2313c0fbdcc6b27ac1a4b72f70ddc2_380883_660x0_resize_box_3.png 660w,
           /why-kubernetes-is-important-for-the-future-of-data-platforms/kubernetes_architecture_hu3d2313c0fbdcc6b27ac1a4b72f70ddc2_380883_1024x0_resize_box_3.png 1024w,
           /why-kubernetes-is-important-for-the-future-of-data-platforms/kubernetes_architecture_hu3d2313c0fbdcc6b27ac1a4b72f70ddc2_380883_1320x0_resize_box_3.png 2x&#34;
-        src=&#34;http://localhost:1313/why-kubernetes-is-important-for-the-future-of-data-platforms/kubernetes_architecture_hu3d2313c0fbdcc6b27ac1a4b72f70ddc2_380883_660x0_resize_box_3.png&#34;
+        src=&#34;https://mertkavi.com/why-kubernetes-is-important-for-the-future-of-data-platforms/kubernetes_architecture_hu3d2313c0fbdcc6b27ac1a4b72f70ddc2_380883_660x0_resize_box_3.png&#34;
         alt=&#34;Kubernetes Architecture&#34;
       /&gt;
       
