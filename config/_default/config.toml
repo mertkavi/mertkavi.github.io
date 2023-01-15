@@ -1,0 +1,11 @@
+baseURL = "http://localhost:1313/"
+defaultContentLanguage = "en"
+
+enableRobotsTXT = true
+paginate = 10
+summaryLength = 0
+
+googleAnalytics = "G-DHZD8906YW"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

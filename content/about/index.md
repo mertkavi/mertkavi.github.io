@@ -2,9 +2,7 @@
 title = "About"
 +++
 
-Hi there 👋 ,
-
-My name is **Mert Kavi**. I write my thoughts on this blog.
+## Hi! I'm Mert.
 
 Here are some of the **technical areas** of my interests:
 
@@ -12,7 +10,12 @@ Here are some of the **technical areas** of my interests:
 * **Scalability** and **high availability**.
 * Software **infrastructure**, **architecture**, and **operations**.
 
-**Links:**
-* [LinkedIn](https://linkedin.com/in/mertkavi)
+## Find out more?
+
+Take a look at my [writings](/posts).
+
+Please feel free to contact me at any time by [email](mailto:mertkavi@gmail.com) or follow me on:
+
 * [Twitter](https://twitter.com/mkavi)
+* [LinkedIn](https://linkedin.com/in/mertkavi)
 * [GitHub](https://github.com/mertkavi)
