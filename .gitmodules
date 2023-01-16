@@ -4,3 +4,7 @@
 [submodule "themes/etch"]
 	path = themes/etch
 	url = https://github.com/LukasJoswiak/etch.git
+[submodule "themes/congo"]
+	path = themes/congo
+	url = https://github.com/jpanther/congo.git
+	branch = stable
