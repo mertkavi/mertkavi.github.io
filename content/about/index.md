@@ -19,3 +19,7 @@ Please feel free to contact me at any time by [email](mailto:mertkavi@gmail.com)
 * [Twitter](https://twitter.com/mkavi)
 * [LinkedIn](https://linkedin.com/in/mertkavi)
 * [GitHub](https://github.com/mertkavi)
+
+---
+
+<script async data-uid="46fa8c47ab" src="https://mert-kavi.ck.page/46fa8c47ab/index.js"></script>
