@@ -9,7 +9,7 @@ title = "Mert Kavi"
 description = "Personal website of Mert Kavi"
 copyright = "Copyright © 2022 Mert Kavi"
 
-#dateFormat = "2 January 2006"
+dateFormat = "2 January 2006"
 
 [author]
   name = "Mert Kavi"
