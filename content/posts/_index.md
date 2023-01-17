@@ -1,6 +1,6 @@
 ---
 title: "Writings"
-description: "I write my thoughts here."
+description: "Learn how to get started using the Congo theme."
 
 cascade:
   showEdit: false

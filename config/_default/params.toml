@@ -63,10 +63,6 @@ enableCodeCopy = false
 [taxonomy]
   showTermCount = true
 
-[fathomAnalytics]
-  # site = "ABC12345"
-  # domain = "llama.yoursite.com"
-
 [verification]
   # google = ""
   # bing = ""

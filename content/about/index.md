@@ -1,6 +1,7 @@
-+++
-title = "About"
-+++
+---
+title: "About"
+description: "I'm Mert Kavi. Some of the technical areas of my interests; data platforms, machine learning platforms data products, software engineering, software architecture."
+---
 
 ## Hi! I'm Mert.
 
