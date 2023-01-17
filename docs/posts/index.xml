@@ -7,70 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2022 Mert Kavi</copyright>
-    <lastBuildDate>Sun, 13 Mar 2022 13:15:05 +0300</lastBuildDate>
-    
-	<atom:link href="https://mertkavi.com/posts/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
+    <lastBuildDate>Sun, 13 Mar 2022 13:15:05 +0300</lastBuildDate><atom:link href="https://mertkavi.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Why Kubernetes is important for the future of data platforms?</title>
       <link>https://mertkavi.com/why-kubernetes-is-important-for-the-future-of-data-platforms/</link>
       <pubDate>Sun, 13 Mar 2022 13:15:05 +0300</pubDate>
       
       <guid>https://mertkavi.com/why-kubernetes-is-important-for-the-future-of-data-platforms/</guid>
-      <description>&lt;h2 id=&#34;introduction&#34; class=&#34;relative group&#34;&gt;Introduction &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#introduction&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;Kubernetes is container automation and allocator platform in short. It has built-in healing, scheduling, deployment practices (such as rollouts and rollbacks), load-balancing, and auto-scaling features. It wraps up containers as abstraction by name of Pod.&lt;/p&gt;
-&lt;h3 id=&#34;kubernetes-architecture&#34; class=&#34;relative group&#34;&gt;Kubernetes architecture &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#kubernetes-architecture&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h3&gt;
-&lt;p&gt;
-
-
-
-  
-  
-    
-  
-  
-    &lt;figure&gt;
-      &lt;img
-        class=&#34;my-0 rounded-md&#34;
-        srcset=&#34;
-          /why-kubernetes-is-important-for-the-future-of-data-platforms/kubernetes_architecture_hu3d2313c0fbdcc6b27ac1a4b72f70ddc2_380883_330x0_resize_box_3.png 330w,
-          /why-kubernetes-is-important-for-the-future-of-data-platforms/kubernetes_architecture_hu3d2313c0fbdcc6b27ac1a4b72f70ddc2_380883_660x0_resize_box_3.png 660w,
-          /why-kubernetes-is-important-for-the-future-of-data-platforms/kubernetes_architecture_hu3d2313c0fbdcc6b27ac1a4b72f70ddc2_380883_1024x0_resize_box_3.png 1024w,
-          /why-kubernetes-is-important-for-the-future-of-data-platforms/kubernetes_architecture_hu3d2313c0fbdcc6b27ac1a4b72f70ddc2_380883_1320x0_resize_box_3.png 2x&#34;
-        src=&#34;https://mertkavi.com/why-kubernetes-is-important-for-the-future-of-data-platforms/kubernetes_architecture_hu3d2313c0fbdcc6b27ac1a4b72f70ddc2_380883_660x0_resize_box_3.png&#34;
-        alt=&#34;Kubernetes Architecture&#34;
-      /&gt;
-      
-    &lt;/figure&gt;
-  
-
-&lt;/p&gt;
-&lt;h2 id=&#34;problem&#34; class=&#34;relative group&#34;&gt;Problem &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#problem&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;Nowadays many industries have to collect and infuse data to solve complex problems. There are many data-centric problems, from customer service to process automation on the pitch besides while the problems are increasing, data volume is growing every single day. The information technology industry should be able to provide robust, reliable, and scalable data and machine learning solutions more than in past decades.&lt;/p&gt;
-&lt;h2 id=&#34;proposed-system&#34; class=&#34;relative group&#34;&gt;Proposed System &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#proposed-system&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;Nearly all data-intensive applications use batch or real-time data processing, for instance, analytics reports, machine learning tasks, or real-time advertising campaigns actions, all of those tasks process a huge amount of collected data.&lt;/p&gt;
-&lt;p&gt;The batch data processing world used Hadoop for past years so Hadoop has worked on almost only YARN for resource managing for many years. After that, Mesos has the wind at its back with the rising of containerization and many teams tried to Mesos resource manager for the Hadoop environment. Real-time processing, on the other hand, was always more complex than batch data processing with different concepts such as watermarks, it still does.&lt;/p&gt;
-&lt;p&gt;The data applications have drastic computation tasks which should handle all of the data at scale. That kind of application requires relying on distributed systems and tasks orchestrations because it needs too many computation devices, processes, threads, containers, pods, or otherwise.&lt;/p&gt;
-&lt;p&gt;Data workloads inherently need schedulers that work like a charm. The workload can be a mundane data processing job or a multi-component machine-learning operation flow. If you have a machine learning model to serve other applications, you need to API server mostly. If you have an API server, you need to load-balancing and other fancy microservices concepts.&lt;/p&gt;
-&lt;p&gt;Last but not least, another important topic is cloud flexibility. The applications should be able to run on different platforms such as private, public, or hybrid cloud. Data is a critical asset for any company or government and as well there are regulations increasing day by day. The data race has just begun.&lt;/p&gt;
-&lt;h2 id=&#34;conclusion&#34; class=&#34;relative group&#34;&gt;Conclusion &lt;span class=&#34;absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100&#34;&gt;&lt;a class=&#34;group-hover:text-primary-300 dark:group-hover:text-neutral-700&#34; style=&#34;text-decoration-line: none !important;&#34; href=&#34;#conclusion&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;These kinds of problems and systems bring many different complexities to managing, but Kubernetes rising like the sun has competitive advantages with the following parts and aspects:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Resource efficiency&lt;/li&gt;
-&lt;li&gt;Seamless scalability on containers or nodes&lt;/li&gt;
-&lt;li&gt;Built-in scheduler&lt;/li&gt;
-&lt;li&gt;Cloud flexibility&lt;/li&gt;
-&lt;li&gt;Pushing to apply engineering best practices&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;script async data-uid=&#34;46fa8c47ab&#34; src=&#34;https://mert-kavi.ck.page/46fa8c47ab/index.js&#34;&gt;&lt;/script&gt;
-</description>
+      <description>Introduction # Kubernetes is container automation and allocator platform in short. It has built-in healing, scheduling, deployment practices (such as rollouts and rollbacks), load-balancing, and auto-scaling features. It wraps up containers as abstraction by name of Pod.
+Kubernetes architecture #    Problem # Nowadays many industries have to collect and infuse data to solve complex problems. There are many data-centric problems, from customer service to process automation on the pitch besides while the problems are increasing, data volume is growing every single day.</description>
     </item>
-    
-    
-    
     
   </channel>
 </rss>

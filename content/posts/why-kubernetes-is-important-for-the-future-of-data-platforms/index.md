@@ -1,6 +1,7 @@
 ---
 title: "Why Kubernetes is important for the future of data platforms?"
 date: 2022-03-13T13:15:05+03:00
+description: "Learn why is important Kubernetes for data platforms, data infrastructure, machine learning, and how to solve complex data problems."
 tags: ["kubernetes", "data infrastucture"]
 draft: false
 ---

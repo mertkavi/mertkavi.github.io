@@ -1,5 +1,8 @@
 baseURL = "https://mertkavi.com"
-defaultContentLanguage = "en"
+publishDir = "docs"
+
+[permalinks]
+  posts = "/:title/"
 
 enableRobotsTXT = true
 paginate = 10
