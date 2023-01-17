@@ -1,0 +1,4 @@
+[submodule "themes/congo"]
+	path = themes/congo
+	url = https://github.com/mertkavi/congo.git
+	branch = stable
