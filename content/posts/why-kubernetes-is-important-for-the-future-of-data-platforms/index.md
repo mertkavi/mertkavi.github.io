@@ -1,14 +1,18 @@
 ---
 title: "Why Kubernetes is important for the future of data platforms?"
 date: 2022-03-13T13:15:05+03:00
-description: "Learn why is important Kubernetes for data platforms, data infrastructure, machine learning, and how to solve complex data problems."
-tags: ["kubernetes", "data infrastucture"]
+description: "The article discusses the challenges of data processing in various industries and proposes Kubernetes as a solution for managing distributed systems and task orchestrations, with advantages such as resource efficiency, seamless scalability, a built-in scheduler, cloud flexibility, and the ability to apply engineering best practices."
+tags: ["kubernetes", "data infrastucture", "data platform"]
 draft: false
 ---
 
+{{< alert "circle-info" >}}
+**Disclaimer:** Any opinions expressed are solely my own.
+{{< /alert >}}
+
 ## Introduction
 
-Kubernetes is container automation and allocator platform in short. It has built-in healing, scheduling, deployment practices (such as rollouts and rollbacks), load-balancing, and auto-scaling features. It wraps up containers as abstraction by name of Pod.
+In brief, Kubernetes is a platform for automating and allocating containers that includes built-in features for healing, scheduling, and deployment practices (such as rollouts and rollbacks), as well as load-balancing and auto-scaling capabilities. Containers are abstracted by the name "Pod" within Kubernetes.
 
 ### Kubernetes architecture
 
@@ -16,29 +20,29 @@ Kubernetes is container automation and allocator platform in short. It has built
 
 ## Problem
 
-Nowadays many industries have to collect and infuse data to solve complex problems. There are many data-centric problems, from customer service to process automation on the pitch besides while the problems are increasing, data volume is growing every single day. The information technology industry should be able to provide robust, reliable, and scalable data and machine learning solutions more than in past decades.
+Nowadays, numerous industries face the challenge of collecting and integrating data to solve complex problems. These data-centric problems span from customer service to process automation, and as the number of problems increases, so does the volume of data that needs to be processed. Consequently, the information technology industry is expected to deliver robust, reliable, and scalable data and machine learning solutions more than ever before, to meet the demands of the rapidly growing data volumes.
 
 ## Proposed System
 
-Nearly all data-intensive applications use batch or real-time data processing, for instance, analytics reports, machine learning tasks, or real-time advertising campaigns actions, all of those tasks process a huge amount of collected data.
+Almost all data-intensive applications require either batch or real-time data processing. These applications include analytics reports, machine learning tasks, and real-time advertising campaign actions, all of which process large volumes of collected data.
 
-The batch data processing world used Hadoop for past years so Hadoop has worked on almost only YARN for resource managing for many years. After that, Mesos has the wind at its back with the rising of containerization and many teams tried to Mesos resource manager for the Hadoop environment. Real-time processing, on the other hand, was always more complex than batch data processing with different concepts such as watermarks, it still does.
+For several years, Hadoop has been the preferred choice for batch data processing, and it has primarily used YARN for resource management. However, with the emergence of containerization, Mesos has become a popular resource manager for Hadoop environments. In contrast, real-time processing has always been more complex than batch processing and requires different concepts such as watermarks.
 
-The data applications have drastic computation tasks which should handle all of the data at scale. That kind of application requires relying on distributed systems and tasks orchestrations because it needs too many computation devices, processes, threads, containers, pods, or otherwise.
+Data applications involve significant computation tasks that must handle large amounts of data at scale. Consequently, these applications require distributed systems and task orchestrations to manage computation devices, processes, threads, containers, pods, or other resources.
 
-Data workloads inherently need schedulers that work like a charm. The workload can be a mundane data processing job or a multi-component machine-learning operation flow. If you have a machine learning model to serve other applications, you need to API server mostly. If you have an API server, you need to load-balancing and other fancy microservices concepts.
+Schedulers are crucial for managing data workloads, whether it is a simple data processing job or a multi-component machine-learning operation flow. Machine learning models typically require an API server, while API servers require load balancing and other microservices concepts.
 
-Last but not least, another important topic is cloud flexibility. The applications should be able to run on different platforms such as private, public, or hybrid cloud. Data is a critical asset for any company or government and as well there are regulations increasing day by day. The data race has just begun.
+Finally, cloud flexibility is a critical consideration for data applications as they must be capable of running on different platforms such as private, public, or hybrid cloud. Data is a valuable asset for companies and governments, and as regulations increase, the importance of data management and processing is only likely to grow. The data race has just begun.
 
 ## Conclusion
 
-These kinds of problems and systems bring many different complexities to managing, but Kubernetes rising like the sun has competitive advantages with the following parts and aspects:
+Managing these types of problems and systems can be complex, but Kubernetes has emerged as a solution with several competitive advantages, including:
 
-- Resource efficiency
-- Seamless scalability on containers or nodes
-- Built-in scheduler
-- Cloud flexibility
-- Pushing to apply engineering best practices
+- Resource efficiency: Kubernetes optimizes the use of computing resources and ensures that containers are efficiently allocated to nodes.
+- Seamless scalability on containers or nodes: Kubernetes allows for seamless scaling of containers or nodes based on the needs of the application.
+- Built-in scheduler: Kubernetes has a built-in scheduler that automates the deployment and scaling of containers and manages the allocation of computing resources.
+- Cloud flexibility: Kubernetes provides the flexibility to run applications on different cloud platforms, including private, public, and hybrid clouds.
+- Pushing to apply engineering best practices: Kubernetes encourages the use of best practices in software engineering, such as containerization, microservices, and continuous integration and delivery, to improve the reliability and scalability of applications.
 
 ---
 

@@ -14,7 +14,7 @@ dateFormat = "2 January 2006"
 [author]
   name = "Mert Kavi"
   image = "img/author.jpg"
-  headline = "Technology, software and data laborer."
+  headline = "Software and Data Laborer"
   bio = "Software and Data Laborer"
   links = [
      { email = "mailto:mertkavi@gmail.com" },

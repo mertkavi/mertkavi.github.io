@@ -14,20 +14,19 @@
       <pubDate>Sun, 13 Mar 2022 13:15:05 +0300</pubDate>
       
       <guid>https://mertkavi.com/why-kubernetes-is-important-for-the-future-of-data-platforms/</guid>
-      <description>Introduction # Kubernetes is container automation and allocator platform in short. It has built-in healing, scheduling, deployment practices (such as rollouts and rollbacks), load-balancing, and auto-scaling features. It wraps up containers as abstraction by name of Pod.
-Kubernetes architecture #    Problem # Nowadays many industries have to collect and infuse data to solve complex problems. There are many data-centric problems, from customer service to process automation on the pitch besides while the problems are increasing, data volume is growing every single day.</description>
+      <description>Disclaimer: Any opinions expressed are solely my own. Introduction # In brief, Kubernetes is a platform for automating and allocating containers that includes built-in features for healing, scheduling, and deployment practices (such as rollouts and rollbacks), as well as load-balancing and auto-scaling capabilities. Containers are abstracted by the name &amp;ldquo;Pod&amp;rdquo; within Kubernetes.
+Kubernetes architecture # Problem # Nowadays, numerous industries face the challenge of collecting and integrating data to solve complex problems.</description>
     </item>
     
     <item>
       <title>About</title>
       <link>https://mertkavi.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Jan 1970 00:00:00 +0000</pubDate>
       
       <guid>https://mertkavi.com/about/</guid>
       <description>Hi! I&amp;rsquo;m Mert. # Here are some of the technical areas of my interests:
- Data and machine learning platforms and products. Scalability and high availability. Software infrastructure, architecture, and operations.  Find out more? # Take a look at my writings.
-Please feel free to contact me at any time by email or follow me on:
- Twitter LinkedIn GitHub    </description>
+Data and machine learning platforms and products. Scalability and high availability. Software infrastructure, architecture, and operations. Find out more? # Take a look at my writings.
+Please feel free to contact me at any time by email or follow me on: - - </description>
     </item>
     
   </channel>

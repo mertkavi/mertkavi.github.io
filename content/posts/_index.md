@@ -1,6 +1,6 @@
 ---
 title: "Writings"
-description: "Learn how to get started using the Congo theme."
+description: "On this page, you can find a list of my writings about various topics related to technology, software, data, and more."
 
 cascade:
   showEdit: false
