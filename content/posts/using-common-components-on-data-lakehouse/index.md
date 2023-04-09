@@ -3,7 +3,7 @@ title: "Building common components in Data Lakehouse is a necessity"
 date: 2023-04-09T13:15:05+03:00
 description: "The article discusses the challenges faced by scalable data teams in managing and processing large amounts of data and proposes a system that includes separating storage, compute, and metadata, using distributed file systems and columnar data formats, real-time data ingestion with CDC tools, and efficient querying through composable components and a joint query/compute engine."
 tags: ["data architecture", "data lakehouse", "data platform"]
-draft: true
+draft: false
 ---
 
 {{< alert "circle-info" >}}
