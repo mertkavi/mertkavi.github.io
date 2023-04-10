@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data lakehouse on Mert Kavi</title>
+    <link>https://mertkavi.com/tags/data-lakehouse/</link>
+    <description>Recent content in data lakehouse on Mert Kavi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2022 Mert Kavi</copyright>
+    <lastBuildDate>Sun, 09 Apr 2023 13:15:05 +0300</lastBuildDate><atom:link href="https://mertkavi.com/tags/data-lakehouse/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building common components in Data Lakehouse is a necessity</title>
+      <link>https://mertkavi.com/building-common-components-in-data-lakehouse-is-a-necessity/</link>
+      <pubDate>Sun, 09 Apr 2023 13:15:05 +0300</pubDate>
+      
+      <guid>https://mertkavi.com/building-common-components-in-data-lakehouse-is-a-necessity/</guid>
+      <description>Disclaimer: Any opinions expressed are solely my own. Introduction # In today&amp;rsquo;s world, nearly every product can be considered a data product. However, the ways in which they use data can vary greatly, with some being more data-intensive than others. This presents new challenges for data-reliant systems, such as ensuring data freshness and providing quick responses to queries. Businesses need to be able to gain insights from this data in a timely manner to stay competitive.</description>
+    </item>
+    
+  </channel>
+</rss>
