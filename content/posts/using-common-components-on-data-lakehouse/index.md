@@ -116,29 +116,29 @@ Data platforms are constantly evolving and changing, especially with the introdu
 
 As technology advances, data stacks will become more refined and sophisticated.
 
-[^1]: https://en.wikipedia.org/wiki/Change_data_capture
+[^1]: [Change Data Capture](https://en.wikipedia.org/wiki/Change_data_capture)
 
-[^2]: https://debezium.io
+[^2]: [Debezium](https://debezium.io)
 
-[^3]: https://docs.confluent.io/5.4.3/ksql/docs/index.html
+[^3]: [ksqlDB Overview](https://docs.confluent.io/5.4.3/ksql/docs/index.html)
 
-[^4]: https://github.com/google/zetasql
+[^4]: [ZetaSQL - Analyzer Framework for SQL](https://github.com/google/zetasql)
 
-[^5]: https://mesos.apache.org
+[^5]: [Apache Mesos](https://mesos.apache.org)
 
-[^6]: https://spark.apache.org/docs/latest/streaming-programming-guide.html#checkpointing
+[^6]: [Spark Streaming Programming Guide](https://spark.apache.org/docs/latest/streaming-programming-guide.html#checkpointing)
 
-[^7]: https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html#handling-late-data-and-watermarking
+[^7]: [Structured Streaming Programming Guide](https://spark.apache.org/docs/latest/structured-streaming-programming-guide.html#handling-late-data-and-watermarking)
 
-[^8]: https://www.confluent.io/blog/exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it
+[^8]: [Exactly-Once Semantics Are Possible: Here’s How Kafka Does It](https://www.confluent.io/blog/exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it)
 
-[^9]: https://docs.confluent.io/platform/current/schema-registry/fundamentals/avro.html#schema-evolution-and-compatibility
+[^9]: [Schema Evolution and Compatibility](https://docs.confluent.io/platform/current/schema-registry/fundamentals/avro.html#schema-evolution-and-compatibility)
 
-[^10]: https://en.wikipedia.org/wiki/Feature_(machine_learning)
+[^10]: [Feature (machine learning)](https://en.wikipedia.org/wiki/Feature_(machine_learning))
 
-[^11]: https://github.com/prestodb/presto/blob/master/presto-main/src/main/java/com/facebook/presto/operator/scalar/StringFunctions.java#L445
+[^11]: [presto/StringFunctions.java](https://github.com/prestodb/presto/blob/master/presto-main/src/main/java/com/facebook/presto/operator/scalar/StringFunctions.java#L445)
 
-[^12]: https://velox-lib.io
+[^12]: [Hello from Velox](https://velox-lib.io)
 
 ---
 
