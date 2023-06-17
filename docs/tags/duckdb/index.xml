@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>duckdb on Mert Kavi</title>
+    <link>https://mertkavi.com/tags/duckdb/</link>
+    <description>Recent content in duckdb on Mert Kavi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © 2022 Mert Kavi</copyright>
+    <lastBuildDate>Sat, 17 Jun 2023 17:09:29 +0300</lastBuildDate><atom:link href="https://mertkavi.com/tags/duckdb/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spark is still a safe port when compared to DuckDB and Polars</title>
+      <link>https://mertkavi.com/spark-is-still-a-safe-port-when-compared-to-duckdb-and-polars/</link>
+      <pubDate>Sat, 17 Jun 2023 17:09:29 +0300</pubDate>
+      
+      <guid>https://mertkavi.com/spark-is-still-a-safe-port-when-compared-to-duckdb-and-polars/</guid>
+      <description>Disclaimer: Any opinions expressed are solely my own. Introduction # There are many data processing technologies available today compared to the past. Some of them work as distributed systems, while others work as standalone solutions. There is no silver bullet, as all of these technologies cover specialized problems. In this post, we will discuss a basic data processing job that can be performed using Spark, DuckDB, and Polars.
+Problem # The goal of the basic data processing job is to perform the following steps:</description>
+    </item>
+    
+  </channel>
+</rss>
