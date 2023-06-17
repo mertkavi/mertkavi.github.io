@@ -6,6 +6,12 @@ tags: ["kubernetes", "data infrastucture", "data platform"]
 draft: false
 ---
 
+{{< alert "comment" >}}
+[Hacker News discussion](https://news.ycombinator.com/item?id=30661120)
+{{< /alert >}}
+
+<br />
+
 {{< alert "circle-info" >}}
 **Disclaimer:** Any opinions expressed are solely my own.
 {{< /alert >}}
