@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © 2022 Mert Kavi</copyright>
-    <lastBuildDate>Sun, 09 Apr 2023 13:15:05 +0300</lastBuildDate><atom:link href="https://mertkavi.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 17 Jun 2023 17:09:29 +0300</lastBuildDate><atom:link href="https://mertkavi.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>data engineering</title>
+      <link>https://mertkavi.com/tags/data-engineering/</link>
+      <pubDate>Sat, 17 Jun 2023 17:09:29 +0300</pubDate>
+      
+      <guid>https://mertkavi.com/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>duckdb</title>
+      <link>https://mertkavi.com/tags/duckdb/</link>
+      <pubDate>Sat, 17 Jun 2023 17:09:29 +0300</pubDate>
+      
+      <guid>https://mertkavi.com/tags/duckdb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>polars</title>
+      <link>https://mertkavi.com/tags/polars/</link>
+      <pubDate>Sat, 17 Jun 2023 17:09:29 +0300</pubDate>
+      
+      <guid>https://mertkavi.com/tags/polars/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>spark</title>
+      <link>https://mertkavi.com/tags/spark/</link>
+      <pubDate>Sat, 17 Jun 2023 17:09:29 +0300</pubDate>
+      
+      <guid>https://mertkavi.com/tags/spark/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>data architecture</title>
       <link>https://mertkavi.com/tags/data-architecture/</link>
