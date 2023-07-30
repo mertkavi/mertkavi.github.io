@@ -12,10 +12,10 @@ draft: false
 
 <br />
 
-# Introduction
+## Introduction
 There are many data processing technologies available today compared to the past. Some of them work as distributed systems, while others work as standalone solutions. There is no silver bullet, as all of these technologies cover specialized problems. In this post, we will discuss a basic data processing job that can be performed using **Spark, DuckDB, and Polars**.
 
-# Problem
+## Problem
 The goal of the basic data processing job is to perform the following steps:
 
 - Read a **JSON** file.
@@ -23,9 +23,9 @@ The goal of the basic data processing job is to perform the following steps:
 
 Thus, the job involves converting a JSON file to a Parquet file. Naturally, our data is complex, unpredictable, and heavily contaminated, just like real-world data.
 
-# Proposed System
+## Proposed System
 
-## DuckDB
+### DuckDB
 
 ```sql
 CREATE TABLE d AS SELECT * FROM 'd.json';
@@ -34,7 +34,7 @@ COPY d to 'd.parquet' (FORMAT parquet);
 
 Unfortunately, this process takes more than 30 minutes 🤷.
 
-## Polars
+### Polars
 
 ```python
 import polars as pl
@@ -51,7 +51,7 @@ RuntimeError: BindingsError: "expected list/array in JSON value, got str"
 
 Once again, there are strange errors for very basic commands.
 
-## Spark
+### Spark
 
 ```bash
 ./bin/spark-shell --master "local[8]"
@@ -64,7 +64,7 @@ df.coalesce(1).write.parquet(outputPath)
 
 The task completes within a few minutes.
 
-# Conclusion
+## Conclusion
 I needed to perform some basic data processing jobs quickly, but unfortunately, I faced some obstacles... I'm not sure, maybe DuckDB needs some optimizations for complex data structures, and Polars requires some more time. This short story shows me that no matter what, Spark still ***just works*** if you have the necessary skills.
 
 ---
