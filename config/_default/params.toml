@@ -33,11 +33,10 @@ enableCodeCopy = false
 [article]
   showDate = true
   showDateUpdated = false
-  showAuthor = true
+  showAuthor = false
   showBreadcrumbs = false
   showDraftLabel = false
   showEdit = false
-  # editURL = "https://github.com/username/repo/"
   editAppendPath = false
   showHeadingAnchors = true
   showPagination = true
@@ -47,7 +46,6 @@ enableCodeCopy = false
   showTaxonomies = true
   showWordCount = false
   showComments = false
-  sharingLinks = ["twitter", "reddit", "linkedin", "email"]
 
 [list]
   showBreadcrumbs = false
@@ -62,9 +60,3 @@ enableCodeCopy = false
 
 [taxonomy]
   showTermCount = true
-
-[verification]
-  # google = ""
-  # bing = ""
-  # pinterest = ""
-  # yandex = ""

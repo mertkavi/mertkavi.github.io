@@ -6,7 +6,7 @@
     <description>Recent content in data architecture on Mert Kavi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2022 Mert Kavi</copyright>
+    <copyright>Copyright © 2023 Mert Kavi</copyright>
     <lastBuildDate>Sun, 09 Apr 2023 13:15:05 +0300</lastBuildDate><atom:link href="https://mertkavi.com/tags/data-architecture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Building common components in Data Lakehouse is a necessity</title>
@@ -14,7 +14,7 @@
       <pubDate>Sun, 09 Apr 2023 13:15:05 +0300</pubDate>
       
       <guid>https://mertkavi.com/building-common-components-in-data-lakehouse-is-a-necessity/</guid>
-      <description>Disclaimer: Any opinions expressed are solely my own. Introduction # In today&amp;rsquo;s world, nearly every product can be considered a data product. However, the ways in which they use data can vary greatly, with some being more data-intensive than others. This presents new challenges for data-reliant systems, such as ensuring data freshness and providing quick responses to queries. Businesses need to be able to gain insights from this data in a timely manner to stay competitive.</description>
+      <description>Disclaimer: Any opinions expressed are solely my own.</description>
     </item>
     
   </channel>

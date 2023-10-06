@@ -1,9 +1,6 @@
 baseURL = "https://mertkavi.com"
 publishDir = "docs"
 
-[permalinks]
-  posts = "/:title/"
-
 enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
@@ -12,3 +9,6 @@ googleAnalytics = "G-DHZD8906YW"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[permalinks]
+  posts = "/:title/"

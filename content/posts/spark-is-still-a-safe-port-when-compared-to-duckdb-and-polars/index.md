@@ -13,7 +13,7 @@ draft: false
 <br />
 
 ## Introduction
-There are many data processing technologies available today compared to the past. Some of them work as distributed systems, while others work as standalone solutions. There is no silver bullet, as all of these technologies cover specialized problems. In this post, we will discuss a basic data processing job that can be performed using **Spark, DuckDB, and Polars**.
+There are many data processing technologies available today compared to the past. Some of them work as distributed systems, while others work as standalone solutions. There is no silver bullet, as all of these technologies cover specialized problems. In this post, we will discuss a basic data processing job that can be performed using **Spark**, **DuckDB**, and **Polars**.
 
 ## Problem
 The goal of the basic data processing job is to perform the following steps:
@@ -66,7 +66,3 @@ The task completes within a few minutes.
 
 ## Conclusion
 I needed to perform some basic data processing jobs quickly, but unfortunately, I faced some obstacles... I'm not sure, maybe DuckDB needs some optimizations for complex data structures, and Polars requires some more time. This short story shows me that no matter what, Spark still ***just works*** if you have the necessary skills.
-
----
-
-<script async data-uid="46fa8c47ab" src="https://mert-kavi.ck.page/46fa8c47ab/index.js"></script>

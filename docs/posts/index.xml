@@ -6,16 +6,24 @@
     <description>Recent content in Writings on Mert Kavi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2022 Mert Kavi</copyright>
-    <lastBuildDate>Sat, 17 Jun 2023 17:09:29 +0300</lastBuildDate><atom:link href="https://mertkavi.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2023 Mert Kavi</copyright>
+    <lastBuildDate>Fri, 06 Oct 2023 19:05:00 +0300</lastBuildDate><atom:link href="https://mertkavi.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RAG Architecture: Empowering Large Language Models</title>
+      <link>https://mertkavi.com/rag-architecture-empowering-large-language-models/</link>
+      <pubDate>Fri, 06 Oct 2023 19:05:00 +0300</pubDate>
+      
+      <guid>https://mertkavi.com/rag-architecture-empowering-large-language-models/</guid>
+      <description>Disclaimer: Any opinions expressed are solely my own.</description>
+    </item>
+    
     <item>
       <title>Spark is still a safe port when compared to DuckDB and Polars</title>
       <link>https://mertkavi.com/spark-is-still-a-safe-port-when-compared-to-duckdb-and-polars/</link>
       <pubDate>Sat, 17 Jun 2023 17:09:29 +0300</pubDate>
       
       <guid>https://mertkavi.com/spark-is-still-a-safe-port-when-compared-to-duckdb-and-polars/</guid>
-      <description>Disclaimer: Any opinions expressed are solely my own. Introduction # There are many data processing technologies available today compared to the past. Some of them work as distributed systems, while others work as standalone solutions. There is no silver bullet, as all of these technologies cover specialized problems. In this post, we will discuss a basic data processing job that can be performed using Spark, DuckDB, and Polars.
-Problem # The goal of the basic data processing job is to perform the following steps:</description>
+      <description>Disclaimer: Any opinions expressed are solely my own.</description>
     </item>
     
     <item>
@@ -24,7 +32,7 @@ Problem # The goal of the basic data processing job is to perform the following 
       <pubDate>Sun, 09 Apr 2023 13:15:05 +0300</pubDate>
       
       <guid>https://mertkavi.com/building-common-components-in-data-lakehouse-is-a-necessity/</guid>
-      <description>Disclaimer: Any opinions expressed are solely my own. Introduction # In today&amp;rsquo;s world, nearly every product can be considered a data product. However, the ways in which they use data can vary greatly, with some being more data-intensive than others. This presents new challenges for data-reliant systems, such as ensuring data freshness and providing quick responses to queries. Businesses need to be able to gain insights from this data in a timely manner to stay competitive.</description>
+      <description>Disclaimer: Any opinions expressed are solely my own.</description>
     </item>
     
     <item>
@@ -33,8 +41,7 @@ Problem # The goal of the basic data processing job is to perform the following 
       <pubDate>Sun, 13 Mar 2022 13:15:05 +0300</pubDate>
       
       <guid>https://mertkavi.com/why-kubernetes-is-important-for-the-future-of-data-platforms/</guid>
-      <description>Hacker News discussion Disclaimer: Any opinions expressed are solely my own. Introduction # In brief, Kubernetes is a platform for automating and allocating containers that includes built-in features for healing, scheduling, and deployment practices (such as rollouts and rollbacks), as well as load-balancing and auto-scaling capabilities. Containers are abstracted by the name &amp;ldquo;Pod&amp;rdquo; within Kubernetes.
-Kubernetes architecture # Problem # Nowadays, numerous industries face the challenge of collecting and integrating data to solve complex problems.</description>
+      <description>Hacker News discussion Disclaimer: Any opinions expressed are solely my own.</description>
     </item>
     
   </channel>

@@ -139,7 +139,3 @@ As technology advances, data stacks will become more refined and sophisticated.
 [^11]: [presto/StringFunctions.java](https://github.com/prestodb/presto/blob/master/presto-main/src/main/java/com/facebook/presto/operator/scalar/StringFunctions.java#L445)
 
 [^12]: [Hello from Velox](https://velox-lib.io)
-
----
-
-<script async data-uid="46fa8c47ab" src="https://mert-kavi.ck.page/46fa8c47ab/index.js"></script>
