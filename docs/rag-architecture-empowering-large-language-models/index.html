@@ -107,7 +107,7 @@
     "keywords": ["artificial intelligence","large language model","retrieval augmented generation","rag"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "936"
+    "wordCount": "942"
   }]
   </script>
 
@@ -424,7 +424,7 @@
 </div>
 
 <h2 id="introduction" class="relative group">Introduction <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#introduction" aria-label="Anchor">#</a></span></h2>
-<p>Numerous large language models are constantly being introduced today. Notable ones like <strong>Granite</strong><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, <strong>LLama</strong> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, <strong>FLAN-T5</strong> <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>, and <strong>Alpaca</strong> <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> stand out due to their unique sizes. These models perform differently on various tests like <em>MMLU</em>, <em>TriviaQA</em>, <em>GSM8K</em>, and others.</p>
+<p>Numerous large language models are constantly being introduced today. Notable ones like <strong>IBM’s Granite</strong><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, <strong>LLama</strong> <sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>, <strong>FLAN-T5</strong> <sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>, and <strong>Alpaca</strong> <sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup> stand out due to their unique sizes. These models perform differently on various tests like <em>MMLU</em>, <em>TriviaQA</em>, <em>GSM8K</em>, and others.</p>
 <p>This document explores a promising solution to these challenges, known as the <abbr title="Retrieval Augmented Generation">RAG</abbr> approach. This augmentation not only elevates the accuracy of responses but also amplifies their overall effectiveness.</p>
 <p>The proposed system offers a range of key benefits, including continuous and incremental responsiveness, adaptation to new contextual information, and a reduction in data dependencies. In the following sections, we delve into the components and flow of this innovative approach, shedding light on how it addresses the challenges posed by large language models.</p>
 <h2 id="problem" class="relative group">Problem <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#problem" aria-label="Anchor">#</a></span></h2>
@@ -482,7 +482,7 @@
 <h4 id="search-engine" class="relative group">Search Engine <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#search-engine" aria-label="Anchor">#</a></span></h4>
 <p>Our search engine can be powered by <em>Full-Text Search</em>, <em>Vector Database</em> or another compatible system. These engines offer advanced capabilities tailored to your specific requirements, such as <strong>result ranking based on input search queries</strong>. The search engine is utilized by our <code>Foundational Model</code> to enhance and augment search results effectively.</p>
 <h4 id="foundational-model" class="relative group">Foundational Model <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#foundational-model" aria-label="Anchor">#</a></span></h4>
-<p>The foundational model can be selected from among the models currently available, such as <strong>LLama</strong> <sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> or <strong>FLAN-T5</strong> <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. I won&rsquo;t delve into the concept of the <code>Foundational Model</code> <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> in this post.</p>
+<p>The foundational model can be selected from among the models currently available, such as <strong>IBM’s Granite</strong><sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>, <strong>LLama</strong> <sup id="fnref1:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup> or <strong>FLAN-T5</strong> <sup id="fnref1:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>. I won&rsquo;t delve into the concept of the <code>Foundational Model</code> <sup id="fnref:6"><a href="#fn:6" class="footnote-ref" role="doc-noteref">6</a></sup> in this post.</p>
 <h4 id="llm-application" class="relative group">LLM Application <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#llm-application" aria-label="Anchor">#</a></span></h4>
 <p>The <abbr title="Large Language Model">LLM</abbr> application functions as a front-end and back-end package, accepting <code>Questions</code> or <code>Queries</code> from external sources, initiating actions, and forwarding the generated responses to other systems, such as an <em>API</em> or any user interface.</p>
 <h3 id="workflow" class="relative group">Workflow <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#workflow" aria-label="Anchor">#</a></span></h3>
@@ -493,13 +493,13 @@
 <li>Automate the first point using a workflow management tool such as <code>Airflow</code>.</li>
 <li>Index the data into <em>Full-Text Search Database</em> or create embedding model to <em>Vector Database</em> such as <code>Milvus</code> <sup id="fnref:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>.</li>
 <li>Package and create deployable objects for the third point due to the need for scheduling and fail-over nodes in the workflow.</li>
-<li>Apply fine-tuning principles to the indexing process to gather the best-qualified ranking results from <em>Full-Text Search</em> or <code>Milvus</code>.</li>
+<li>Apply fine-tuning principles to the indexing process to gather the best-qualified ranking results from <em>Full-Text Search</em> or <code>Milvus</code> <sup id="fnref1:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>.</li>
 </ol>
 <p>I <strong>assume</strong> there is a deployed foundational model in a production environment.</p>
 <h4 id="part-2-contextual-response-generation" class="relative group">Part 2: Contextual Response Generation <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#part-2-contextual-response-generation" aria-label="Anchor">#</a></span></h4>
 <ol>
 <li>Receive a question from the <code>LLM Application</code>.</li>
-<li>Execute a query on <em>Full-Text Search Database</em> or <code>Milvus</code> and retrieve highly ranked results.</li>
+<li>Execute a query on <em>Full-Text Search Database</em> or <code>Milvus</code> <sup id="fnref2:7"><a href="#fn:7" class="footnote-ref" role="doc-noteref">7</a></sup>. and retrieve highly ranked results.</li>
 <li>Concatenate the question and the results to form a context and pass it to the foundational model.</li>
 <li>Take the generated response and deliver it to listener objects.</li>
 </ol>
@@ -522,7 +522,7 @@
   href="https://www.ibm.com/blog/building-ai-for-business-ibms-granite-foundation-models/"
   
   target="_blank" rel="noreferrer noopener"
->Granite</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+>IBM’s Granite</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:2">
 <p><a
@@ -564,7 +564,7 @@
   href="https://milvus.io"
   
   target="_blank" rel="noreferrer noopener"
->Milvus</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+>Milvus</a>&#160;<a href="#fnref:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref2:7" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 <li id="fn:8">
 <p><a
