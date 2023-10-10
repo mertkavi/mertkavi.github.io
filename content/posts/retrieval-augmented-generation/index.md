@@ -11,7 +11,7 @@ draft: false
 
 ## Introduction
 
-Numerous large language models are constantly being introduced today. Notable ones like **Granite**[^1], **LLama** [^2], **FLAN-T5** [^3], and **Alpaca** [^4] stand out due to their unique sizes. These models perform differently on various tests like *MMLU*, *TriviaQA*, *GSM8K*, and others.
+Numerous large language models are constantly being introduced today. Notable ones like **IBM’s Granite**[^1], **LLama** [^2], **FLAN-T5** [^3], and **Alpaca** [^4] stand out due to their unique sizes. These models perform differently on various tests like *MMLU*, *TriviaQA*, *GSM8K*, and others.
 
 This document explores a promising solution to these challenges, known as the <abbr title="Retrieval Augmented Generation">RAG</abbr> approach. This augmentation not only elevates the accuracy of responses but also amplifies their overall effectiveness.
 
@@ -55,7 +55,7 @@ This data is prepared for integration into our *semantic search* system.
 Our search engine can be powered by *Full-Text Search*, *Vector Database* or another compatible system. These engines offer advanced capabilities tailored to your specific requirements, such as **result ranking based on input search queries**. The search engine is utilized by our `Foundational Model` to enhance and augment search results effectively.
 
 #### Foundational Model
-The foundational model can be selected from among the models currently available, such as **LLama** [^2] or **FLAN-T5** [^3]. I won't delve into the concept of the `Foundational Model` [^6] in this post.
+The foundational model can be selected from among the models currently available, such as **IBM’s Granite**[^1], **LLama** [^2] or **FLAN-T5** [^3]. I won't delve into the concept of the `Foundational Model` [^6] in this post.
 
 #### LLM Application
 The <abbr title="Large Language Model">LLM</abbr> application functions as a front-end and back-end package, accepting `Questions` or `Queries` from external sources, initiating actions, and forwarding the generated responses to other systems, such as an *API* or any user interface.
@@ -70,14 +70,14 @@ In the **Workflow** section, the proposed <abbr title="Retrieval Augmented Gener
 2. Automate the first point using a workflow management tool such as `Airflow`.
 3. Index the data into *Full-Text Search Database* or create embedding model to *Vector Database* such as `Milvus` [^7].
 4. Package and create deployable objects for the third point due to the need for scheduling and fail-over nodes in the workflow.
-5. Apply fine-tuning principles to the indexing process to gather the best-qualified ranking results from *Full-Text Search* or `Milvus`.
+5. Apply fine-tuning principles to the indexing process to gather the best-qualified ranking results from *Full-Text Search* or `Milvus` [^7].
 
 I **assume** there is a deployed foundational model in a production environment.
 
 #### Part 2: Contextual Response Generation
 
 1. Receive a question from the `LLM Application`.
-2. Execute a query on *Full-Text Search Database* or `Milvus` and retrieve highly ranked results.
+2. Execute a query on *Full-Text Search Database* or `Milvus` [^7]. and retrieve highly ranked results.
 3. Concatenate the question and the results to form a context and pass it to the foundational model.
 4. Take the generated response and deliver it to listener objects.
 
@@ -103,7 +103,7 @@ Example enhancements can support your `LLM Application` in becoming more accurat
 
 The Retrieval Augmented Generation (RAG) approach represents a groundbreaking synergy between information retrieval and language generation, offering a promising solution to the challenges of large language models.
 
-[^1]: [Granite](https://www.ibm.com/blog/building-ai-for-business-ibms-granite-foundation-models/)
+[^1]: [IBM’s Granite](https://www.ibm.com/blog/building-ai-for-business-ibms-granite-foundation-models/)
 [^2]: [LLama](https://ai.meta.com/llama/)
 [^3]: [FLAN-T5](https://huggingface.co/docs/transformers/model_doc/flan-t5)
 [^4]: [Alpaca](https://crfm.stanford.edu/2023/03/13/alpaca.html)
