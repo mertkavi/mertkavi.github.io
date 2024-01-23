@@ -6,16 +6,15 @@
     <description>Recent content in large language model on Mert Kavi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © 2023 Mert Kavi</copyright>
-    <lastBuildDate>Fri, 06 Oct 2023 19:05:00 +0300</lastBuildDate><atom:link href="https://mertkavi.com/tags/large-language-model/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2024 Mert Kavi</copyright>
+    <lastBuildDate>Fri, 06 Oct 2023 19:05:00 +0300</lastBuildDate>
+    <atom:link href="https://mertkavi.com/tags/large-language-model/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>RAG Architecture: Empowering Large Language Models</title>
       <link>https://mertkavi.com/rag-architecture-empowering-large-language-models/</link>
       <pubDate>Fri, 06 Oct 2023 19:05:00 +0300</pubDate>
-      
       <guid>https://mertkavi.com/rag-architecture-empowering-large-language-models/</guid>
       <description>Disclaimer: Any opinions expressed are solely my own.</description>
     </item>
-    
   </channel>
 </rss>
