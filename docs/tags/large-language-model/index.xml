@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>large language model on Mert Kavi</title>
+    <title>Large Language Model on Mert Kavi</title>
     <link>https://mertkavi.com/tags/large-language-model/</link>
-    <description>Recent content in large language model on Mert Kavi</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Large Language Model on Mert Kavi</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2024 Mert Kavi</copyright>
     <lastBuildDate>Fri, 06 Oct 2023 19:05:00 +0300</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://mertkavi.com/rag-architecture-empowering-large-language-models/</link>
       <pubDate>Fri, 06 Oct 2023 19:05:00 +0300</pubDate>
       <guid>https://mertkavi.com/rag-architecture-empowering-large-language-models/</guid>
-      <description>Disclaimer: Any opinions expressed are solely my own.</description>
+      <description></description>
     </item>
   </channel>
 </rss>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>data platform on Mert Kavi</title>
+    <title>Data Platform on Mert Kavi</title>
     <link>https://mertkavi.com/tags/data-platform/</link>
-    <description>Recent content in data platform on Mert Kavi</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Data Platform on Mert Kavi</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2024 Mert Kavi</copyright>
     <lastBuildDate>Sun, 09 Apr 2023 13:15:05 +0300</lastBuildDate>
@@ -14,14 +14,14 @@
       <link>https://mertkavi.com/building-common-components-in-data-lakehouse-is-a-necessity/</link>
       <pubDate>Sun, 09 Apr 2023 13:15:05 +0300</pubDate>
       <guid>https://mertkavi.com/building-common-components-in-data-lakehouse-is-a-necessity/</guid>
-      <description>Disclaimer: Any opinions expressed are solely my own.</description>
+      <description></description>
     </item>
     <item>
       <title>Why Kubernetes is important for the future of data platforms?</title>
       <link>https://mertkavi.com/why-kubernetes-is-important-for-the-future-of-data-platforms/</link>
       <pubDate>Sun, 13 Mar 2022 13:15:05 +0300</pubDate>
       <guid>https://mertkavi.com/why-kubernetes-is-important-for-the-future-of-data-platforms/</guid>
-      <description>Hacker News discussion Disclaimer: Any opinions expressed are solely my own.</description>
+      <description></description>
     </item>
   </channel>
 </rss>

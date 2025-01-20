@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>data infrastucture on Mert Kavi</title>
+    <title>Data Infrastucture on Mert Kavi</title>
     <link>https://mertkavi.com/tags/data-infrastucture/</link>
-    <description>Recent content in data infrastucture on Mert Kavi</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Data Infrastucture on Mert Kavi</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2024 Mert Kavi</copyright>
     <lastBuildDate>Sun, 13 Mar 2022 13:15:05 +0300</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://mertkavi.com/why-kubernetes-is-important-for-the-future-of-data-platforms/</link>
       <pubDate>Sun, 13 Mar 2022 13:15:05 +0300</pubDate>
       <guid>https://mertkavi.com/why-kubernetes-is-important-for-the-future-of-data-platforms/</guid>
-      <description>Hacker News discussion Disclaimer: Any opinions expressed are solely my own.</description>
+      <description></description>
     </item>
   </channel>
 </rss>
