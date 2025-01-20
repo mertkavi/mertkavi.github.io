@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Physics Informed Neural Network on Mert Kavi</title>
+    <link>https://mertkavi.com/tags/physics-informed-neural-network/</link>
+    <description>Recent content in Physics Informed Neural Network on Mert Kavi</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <copyright>Copyright © 2024 Mert Kavi</copyright>
+    <lastBuildDate>Mon, 20 Jan 2025 16:38:27 +0300</lastBuildDate>
+    <atom:link href="https://mertkavi.com/tags/physics-informed-neural-network/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to solve computational science problems with AI: Physics-Informed Neural Networks (PINNs)</title>
+      <link>https://mertkavi.com/how-to-solve-computational-science-problems-with-ai-physics-informed-neural-networks-pinns/</link>
+      <pubDate>Mon, 20 Jan 2025 16:38:27 +0300</pubDate>
+      <guid>https://mertkavi.com/how-to-solve-computational-science-problems-with-ai-physics-informed-neural-networks-pinns/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

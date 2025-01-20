@@ -6,7 +6,7 @@ weight = 1
 rtl = false
 
 title = "Mert Kavi"
-description = "Personal website of Mert Kavi. My thoughts about information technology, software, and data."
+description = "Personal website of Mert Kavi. My thoughts about information software, data, and AI."
 copyright = "Copyright © 2024 Mert Kavi"
 
 dateFormat = "2 January 2006"
@@ -14,10 +14,9 @@ dateFormat = "2 January 2006"
 [params.author]
   name = "Mert Kavi"
   image = "img/author.jpg"
-  headline = "On information technology, software, and data."
-  bio = "Software and Data Professional"
+  headline = "On software, data, and AI."
+  bio = "Software, Data, and AI Professional"
   links = [
      { email = "mailto:mertkavi@gmail.com" },
-     { github = "https://github.com/mertkavi" },
      { linkedin = "https://linkedin.com/in/mertkavi" }
    ]
